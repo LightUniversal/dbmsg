@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-Poppins
+}
+
+.content-table th {
+
+}
+.content-table th, .content-table td {
+  @apply py-3 px-4 font-bold text-sm;
+}
+.content-table .body tr {
+  @apply border-b border-gray-100
+}
+.cases button {
+  @apply font-bold text-xs shadow-md py-2 px-3 rounded text-green-900 mx-2
+}
+.complainant label {
+  @apply py-2 block  font-bold text-xs text-green-900;
+}
