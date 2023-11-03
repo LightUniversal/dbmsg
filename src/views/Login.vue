@@ -41,7 +41,8 @@ export default {
                 alert("You are logged in as " + cred.user.email)
                 this.$router.go({
                     path :  this.$router.path
-                })
+                });
+                location.reload();
             }, (err) => {
                 alert(err.message)
             })
