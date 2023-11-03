@@ -4,12 +4,8 @@
             <button @click="viewcase"><fa icon="fa-user-lock" /> View Cases</button>
             <button @click="addCase"><fa icon="fa-plus" /> Add Case</button>
         </div>
-<<<<<<< HEAD
-        <div class="logout inline absolute right-14 -top-1">
-=======
         <div class="logout block bg-white z-10 absolute right-3 -top-1">
->>>>>>> 0cbcc31 (made new changes)
-            <button v-if="userActive" class="text-sm font-bold shadow-sm py-2 px-4" @click="logout">Logout <fa icon="sign-out" class="mx-1"/></button>
+     <button v-if="userActive" class="text-sm font-bold shadow-sm py-2 px-4" @click="logout">Logout <fa icon="sign-out" class="mx-1"/></button>
         </div>
         <div class="body">
             <div class="staff">

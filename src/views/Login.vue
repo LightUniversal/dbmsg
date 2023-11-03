@@ -28,13 +28,8 @@ import firebase from '../components/firebaseInit';
 export default {
     data() {
         return {
-<<<<<<< HEAD
-            email: "example@gmail.com",
-            password: "Input your password"
-=======
             email: "",
             password: ""
->>>>>>> 0cbcc31 (made new changes)
         }
     },
     methods: {

@@ -62,11 +62,7 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-<<<<<<< HEAD
-  background: var(--color-background);
-=======
   background: white;
->>>>>>> 0cbcc31 (made new changes)
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,

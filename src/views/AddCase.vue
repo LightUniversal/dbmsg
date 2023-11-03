@@ -3,11 +3,7 @@
         <h2 class=" font-bold text-green-900">
             <fa icon="user" /> Complainant Details
         </h2>
-<<<<<<< HEAD
-        <div class="nav  relative right-10 -top-4 my-4 cases">
-=======
         <div class="nav  relative right-2 -top-5 my-4 cases">
->>>>>>> 0cbcc31 (made new changes)
             <button @click="viewcase"><fa icon="fa-user-lock" /> View Cases</button>
             <button @click="home"><fa icon="fa-plus" /> Add Case</button>
         </div>
@@ -88,17 +84,6 @@ import firebase from '../components/firebaseInit';
 export default {
     data() {
         return {
-<<<<<<< HEAD
-            gender: "Male",
-            crime: "Assualt",
-            complainant: "........",
-            occupation: ".........",
-            town: "...........",
-            soo: "Your state of Orign",
-            log: "Your local government",
-            age: "",
-            pnumber: "put Your phone number",
-=======
             gender: "",
             crime: "",
             complainant: "",
@@ -108,7 +93,6 @@ export default {
             log: "",
             age: "",
             pnumber: "",
->>>>>>> 0cbcc31 (made new changes)
             // dob : 
         }
 
